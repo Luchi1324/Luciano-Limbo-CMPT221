@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+
+.titles {
+    font-family: 'Open Sans', Calibri, sans-serif;
+    text-align: center;
+}
+
+.titles button {
+    font-size: medium;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #11a094;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+  
+.titles button:hover { background-color: #108076 }
+  
+.titles button:active {
+    background-color: #11a094;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+.header {
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #1abcae;
+    color: white;
+    font-family: 'Open Sans', Calibri, sans-serif;
+}
+
+.body {
+    font-family: 'Open Sans', Calibri, sans-serif;
+}
+
+.body table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.body td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.body tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+}
+  
+.body tr:hover { 
+    background-color: #ddd; 
+}
+  
+.body th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1abcae;
+    color: white;
+}
+
+.body button {
+    font-size: medium;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1abcae;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+  
+.body button:hover { background-color: #14988d }
+  
+.body button:active {
+    background-color: #1abcae;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+
+#invs {
+    border: none;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+#remove {
+    background-color: #d32a2a;
+}
+
+#adminLogin {
+    width: 50%;
+    text-align: left;
+}
+
+#adminHome {
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
